@@ -8,6 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+    <!-- Font Awesome stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Google Font link -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -16,54 +22,45 @@
   <body>
     
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Joe Malovasic</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./about.html">About <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./examples.html">Examples<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./contact.html">Contact<span class="sr-only"></span></a>
+            </li>
+        </ul>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./examples.html">Examples <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./about.html">About <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./contact.html">Contact<span class="sr-only"></span></a>
-                </li>
-            </ul>
+        <div class="container justify-content-end" id="topNavLogo">
+        JOE MALOVASIC
+        <br>
+        SESSION GUITARIST | FREELANCE COMPOSER
         </div>
+
     </nav>
-
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src="./assets/images/fisheye.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="./assets/images/chelsea.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="./assets/images/bedroom_studio.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
 
     <div class="jumbotron">
         <h1 class="display-4">ABOUT</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <div class="indexImage">
+                <img src="./assets/images/fisheye.jpg">
+            </div>
+            <br>
+            <p>Joe started his musical journey when he first picked up a guitar in 2004. From performing in his high school's jazz band multiple years, to playing in various local metal bands in the Cleveland music scene, he has been honing his chops and his ear for composition over the years in a wide variety of genres</p>
+            <p>In 2011, Joe attended the Recording Workshop, an accelerated learning program in Chillicothe, OH focused on teaching modern recording studio and DAW techniques. Armed with this knowledge, Joe began building up his humble home studio to aid in his creative endeavors. He was the recording engineer for the 2012 album 'Ethereal' by his former band Sentients, and self-produces all of his own material currently.</p>
+            <p>Joe aims to use his skills and talents in the world of multimedia to create original compositions and soundscapes that complement and enrich the source material. He believes that all stories can be further reinforced with the appropriate soundtrack.</p>
     </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
 
 
     <!-- Optional JavaScript -->
@@ -72,4 +69,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
+
+  <footer>
+
+    <div class="container">
+        <nav class="navbar fixed-bottom navbar-light bg-light justify-content-end">
+            <a class="navbar-brand" href="https://instagram.com/joemalov"><i class="fab fa-instagram fa-2x"></i></a>
+            <a class="navbar-brand" href="https://facebook.com/joe.malovasic"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a class="navbar-brand" href="https://twitter.com/JoeMalov"><i class="fab fa-twitter fa-2x"></i></a>
+            <a class="navbar-brand" href="https://youtube.com/user/joemalov"><i class="fab fa-youtube fa-2x"></i></a>
+        </nav>
+    </div>
+
+  </footer>
 </html>

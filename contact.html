@@ -8,6 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+    <!-- Font Awesome stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Google Font link -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -16,37 +22,44 @@
   <body>
     
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Joe Malovasic</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./about.html">About <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./examples.html">Examples<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./contact.html">Contact<span class="sr-only"></span></a>
+            </li>
+        </ul>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./examples.html">Examples <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./about.html">About <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./contact.html">Contact<span class="sr-only"></span></a>
-                </li>
-            </ul>
+        <div class="container justify-content-end" id="topNavLogo">
+        JOE MALOVASIC
+        <br>
+        SESSION GUITARIST | FREELANCE COMPOSER
         </div>
+
     </nav>
+
+    <div class="indexImage">
+        <img src="./assets/images/bedroom_studio.jpg">
+    </div>
 
     <container id="contact-form">
 
     <form>
         <div class="form-row">
-        <div class = "form-group col-md-6">
+        <div class="form-group col-md-6">
             <label for="exampleInputFirstName">First Name</label>
-            <input type="text" class="<form-control" id="exampleInputFirstName">
+            <input type="text" class="form-control" id="exampleInputFirstName">
         </div>
-        <div class = "form-group col-md-6">
+        <div class="form-group col-md-6">
             <label for="exampleInputLastName">Last Name</label>
-            <input type="text" class="<form-control" id="exampleInputLastName">
+            <input type="text" class="form-control" id="exampleInputLastName">
         </div>
         </div>
         <div class="form-group">
@@ -54,17 +67,19 @@
             <input type="email" class="form-control" id="exampleInputEmail1">
         </div>
         <div class="form-group">
-            <label for="exampleInputPassword1">Subject</label>
-            <input type="text" class="form-control" id="exampleInputSubject">
-        </div>
-        <div class="form-group">
             <label for="exampleInputPassword1">Message</label>
-            <input type="text" class="form-control" id="exampleInputMessage">
+            <input type="text" class="form-control form-control-lg" id="exampleInputMessage">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 
     </container>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 
     <!-- Optional JavaScript -->
@@ -73,4 +88,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
+
+  <footer>
+
+    <div class="container">
+        <nav class="navbar fixed-bottom navbar-light bg-light justify-content-end">
+            <a class="navbar-brand" href="https://instagram.com/joemalov"><i class="fab fa-instagram fa-2x"></i></a>
+            <a class="navbar-brand" href="https://facebook.com/joe.malovasic"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a class="navbar-brand" href="https://twitter.com/JoeMalov"><i class="fab fa-twitter fa-2x"></i></a>
+            <a class="navbar-brand" href="https://youtube.com/user/joemalov"><i class="fab fa-youtube fa-2x"></i></a>
+        </nav>
+    </div>
+
+  </footer>
 </html>

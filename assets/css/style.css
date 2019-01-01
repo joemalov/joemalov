@@ -3,3 +3,22 @@
 	text-align: center;
     margin: auto;
 }
+
+.indexImage {
+	text-align: center;
+
+}
+
+footer {
+	color: black;
+}
+
+#topNavLogo {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: #ffffff;
+}
